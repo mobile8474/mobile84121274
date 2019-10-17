@@ -1,0 +1,7 @@
+sudo apt-get install git
+git clone https://bitbucket.org/cryptogone/arionum-gpu-miner.git
+cd arionum-gpu-miner
+./setup_libs.sh linux
+./setup_submodules.sh
+./gen_prj.sh linux
+./make_release_linux.sh
