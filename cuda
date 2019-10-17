@@ -5,6 +5,8 @@ sudo apt-get update
 sudo ubuntu-drivers autoinstall
 
 # install required packages
+apt-get install libdb4.8-dev
+apt-get install libdb4.8++-dev
 sudo apt-get -y install wget libcpprest libboost-all-dev ocl-icd-opencl-dev
 
 # create a folder to put the miner in, and go inside it
