@@ -5,3 +5,10 @@ cd arionum-gpu-miner
 ./setup_submodules.sh
 ./gen_prj.sh linux
 ./make_release_linux.sh
+sudo add-apt-repository -y ppa:graphics-drivers/ppa
+sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda.list'
+sudo bash -c 'echo "deb http://developer.download.nvidia.com/compute/machine-learning/repos/ubuntu1804/x86_64 /" > /etc/apt/sources.list.d/cuda_learn.list'
+sudo apt update
+sudo apt install -y cuda-10-1
+!apt --fix-broken install
+sudo apt-get install -y nvidia-driver-418
