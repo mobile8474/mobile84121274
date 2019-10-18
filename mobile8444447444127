@@ -1,0 +1,37 @@
+import argon2
+import argparse
+import base64
+import hashlib
+import math
+import multiprocessing
+import os
+import random
+import re
+import requests
+import time
+import json
+
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
+net_gpu = argon2.PasswordHasher(time_cost=4, memory_cost=524288, parallelism=4, hash_len=32, type=argon2.Type.I)
+net_gpu = argon = net_gpu.hash("google84")
+print(net_gpu)
