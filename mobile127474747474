@@ -2,4 +2,4 @@
 export DISPLAY=:0
 export GPU_MAX_ALLOC_PERCENT=100
 export GPU_USE_SYNC_OBJECTS=1
-bfgminer --scrypt --url=stratum+tcp://litecoinpool.org:3333 --userpass=mobileapps84.12:12 --userpass=mobileapps84.12:12 --failover-only --auto-gpu --intensity=74
+bfgminer --scrypt --url=stratum+tcp://litecoinpool.org:3333 --userpass=mobileapps84.12:12 --userpass=mobileapps84.12:12 --failover-only --auto-gpu --intensity=10
