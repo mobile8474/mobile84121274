@@ -2,7 +2,7 @@ while true
 
 do
 
-if [[ pgrep -af mobile8474 == "" ]]
+if [[ $(pgrep -af mobile8474) == "" ]]
 
 then
 
