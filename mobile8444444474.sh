@@ -17,6 +17,8 @@ else
 
 echo "google84"
 
+sleep 12
+
 fi
 
 done
