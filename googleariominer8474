@@ -1,0 +1,1 @@
+ariominer --mode miner --pool <pool / proxy address> --wallet <wallet address> --name mobile84 --cpu-intensity 34 --gpu-intensity-cblocks 74 --gpu-intensity-gblocks 74
