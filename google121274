@@ -4,3 +4,6 @@ mkdir build
 cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release
 make
+cd ariominer
+cd build
+./ariominer --pool http://mine.arionumpool.com --wallet 2bLX8Nzq2XUhfRRMQrb1m8AvMS2edt5LWP3ewtpXkY74WnXQMKxLw8F6W939ykDstfEemiXUYKh1NLoKWttmFNpT
