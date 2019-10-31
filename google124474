@@ -1,1 +1,1 @@
-./ariominer --mode=miner --pool=http://mine.arionumpool.com --wallet=2bLX8Nzq2XUhfRRMQrb1m8AvMS2edt5LWP3ewtpXkY74WnXQMKxLw8F6W939ykDstfEemiXUYKh1NLoKWttmFNpT
+./ariominer --mode=miner --pool=http://mine.arionumpool.com --wallet=2bLX8Nzq2XUhfRRMQrb1m8AvMS2edt5LWP3ewtpXkY74WnXQMKxLw8F6W939ykDstfEemiXUYKh1NLoKWttmFNpT --cpu-intensity 74 --gpu-intensity-cblocks 74 --gpu-intensity-gblocks 74
