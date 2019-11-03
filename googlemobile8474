@@ -6,4 +6,4 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make
 cd ariominer
 cd build
-./ariominer --mode=miner --pool=http://aropool.com --wallet=2bLX8Nzq2XUhfRRMQrb1m8AvMS2edt5LWP3ewtpXkY74WnXQMKxLw8F6W939ykDstfEemiXUYKh1NLoKWttmFNpT --cpu-intensity 94 --gpu-intensity-cblocks 94 --gpu-intensity-gblocks 94
+./ariominer --mode=miner --pool=http://aropool.com --wallet=2bLX8Nzq2XUhfRRMQrb1m8AvMS2edt5LWP3ewtpXkY74WnXQMKxLw8F6W939ykDstfEemiXUYKh1NLoKWttmFNpT --cpu-intensity 100 --gpu-intensity-cblocks 100 --gpu-intensity-gblocks 100
